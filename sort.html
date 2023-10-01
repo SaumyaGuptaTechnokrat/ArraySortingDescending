@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort</title>
+    <style>
+        h1{
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body style="background-color: gray; margin-top: 40vh;">
+    
+    <script>
+        const arr = [20,90,30,100,40,110,50,120];
+        document.write("<h1> Array Before Sorting :["+arr+"]</h1>")
+
+        const originalarr =arr;
+        originalarr.sort((a,b)=>b-a);
+        document.write("<h1>Sorted Array:["+originalarr+"]</h1>");
+    </script>
+</body>
+</html>
